@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+          9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background-color:#e2eeeb;">
+
+  <!-- Navbar -->
+
+  <nav class="navbar fixed-top navbar-expand" style="background-color: #e2eeeb;">
+    <!-- Navbar content -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: #040606;">
+        <img src="images/cross-tv.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Teresa Villegas
+      </a>
+      <button class="navbar-toggler" stlye="color: #6a7da9" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto" style="padding: 0px 150px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style="color: #6a7da9;" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#contact" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://github.com/TereV32">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-github" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                  </svg>
+                  Github</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/teresa-villegas-abb146190/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                  </svg>
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="mailto:teresavillegas@icloud.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                  </svg>
+                  Email</a>
+                </li>
+                <li><a class="dropdown-item" href="#contact">
+                  Message</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <hr style="color: #6a9da9;" />
+
+  <!-- Carousel -->
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('images/background.gif');">
+        <div class="row row-cols-2" style="padding: 15%;">
+          <div class="col">
+            <div class="col">
+              <h2 style="color: #040606;">Hi There, <br /> I'm Teresa Villegas!</h2>
+            </div>
+            <div class="row row-cols-1">
+              <div class="col">
+                <button type="button" class="btn"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; background-color: #aca5a8; color: #e2eeeb;" href="#about-me">
+                  <a class="nav-link" href="#about-me">About Me</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/me.jpeg" class="rounded-circle">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('images/background.gif');">
+        <h1 style="padding: 25%;">Something here</h1>
+      </div>
+      <div class="carousel-item" style="background-image: url('images/background.gif');">
+        <h1 style="padding: 25%;">Something else here</h1>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- About Me -->
+
+  <div class="container" style="height: 800px;">
+    <div class="mx-auto p-2" style="width: 200px;">
+      <h1 id="about-me" style="color: #040606;">About Me</h1>
+    </div>
+    <div class="row row-cols-2" style="padding: 5%;">
+      <div class="col">
+        <img src="images/me-relax.jpeg" style="width: 50%;">
+      </div>
+      <div class="col">
+        <p>I am an undergraduate student at Texas A&M University pursuing a Bachelor's degree in Computer Science.
+          I am passionate about learning various coding techniques and eager to enhance my capabilities. I enjoy
+          creating iOS applications.</p>
+        <h6>Email: teresavillegas@icloud.com</h6>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Skills -->
+
+  <div class="container-fluid" style="height: 800px; background-color: #d8dde9;">
+
+    <div class="mx-auto p-2" style="width: 200px;">
+      <h1 id="skills" style="color: #6a7da9;">Skills</h1>
+    </div>
+    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="color: #d7e2df;">
+      <div class=" box-shadow mx-auto"
+        style="color: #d7e2df; width: 100%; height: 500px; border-radius: 50px 50px 50px 50px;">
+        <div class="row row-cols-3" style="padding: 2%;">
+          <div class="col" stlye="border-radius: 20px 20px 0px 0px">
+            <img src="images/python-logo-only.png" class="rounded float-left">
+          </div>
+          <div class="col">
+            <img src="images/Swift_logo_color.svg" class="rounded float-left" alt="...">
+          </div>
+          <div class="col">
+            <img src="images/java-logo.png" class="rounded float-left" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Education -->
+
+  <div class="container" style="height: 800px;">
+
+    <div class="mx-auto p-2" style="width: 200px;">
+      <h1 id="education" style="color: #040606;">Education</h1>
+    </div>
+    <div class="list-group" style="padding: 2%;">
+      <a href="#" class="list-group-item list-group-item-action" aria-current="true" style="height: 400px;">
+        <div class="d-flex w-100 justify-content-between">
+          <div class="row row-cols-2">
+            <div class="col">
+              <img src="images/tamusa.jpg" style="width: 90%;">
+            </div>
+            <div class="col">
+              <h5 class="mb-1">Bachelor of Computer Science</h5>
+              <p class="mb-1">Texas A&M Univeristy - San Antonio</p>
+              <small>2019-2024 | Pursuing</small>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Contact Me!  -->
+
+  <div class="container-fluid" style="background-color: #6a9da9;">
+    <div class="mx-auto p-2" style="width: 300px;">
+      <h1 id="contact" style="color: #ffffff;">Get in Touch!</h1>
+    </div>
+    <div class="row row-cols-2" style="padding: 2%;">
+      <div class="col" style="padding-top: 5%;">
+        <div class="container rounded" style="background-color: #d8dde9;">
+          <form>
+            <div class="row row-cols-2">
+              <div class="col" style="padding: 10%;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="#6a7da9" class="bi bi-envelope-paper" viewBox="0 0 16 16">
+                  <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
+                </svg>
+              </div>
+              <div class="col">
+                <div class="mb-3" style="padding: 5%;">
+                  <input type="text" class="form-control mb-2" id="name" placeholder="Name">
+                  <input type="email" class="form-control mb-2" id="email" placeholder="Email">
+                  <input tpye="text" class="form-control mb-3" id="subject" placeholder="Subject">
+                  <textarea class="form-control mb-3" id="message" rows="3" placeholder="Message"></textarea>
+                  <button type="submit" class="btn btn-primary" style="background-color: #6a7da9;">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222334.98813816113!2d-98.67918358646529!3d29.458472002074497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58af04d00eaf%3A0x856e13b10a016bc!2sSan%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1687301151876!5m2!1sen!2sus"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
